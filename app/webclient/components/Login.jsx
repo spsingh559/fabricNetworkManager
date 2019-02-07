@@ -212,7 +212,7 @@ export default class Login extends React.Component {
     console.log(emailid);*/
     let title=[<span>
       <Image  src="../images/wipro.jpg" height="50px" width="50px" circle />
-      <p className="pull-right" style={{marginRight:"500px"}}>Blockchain Lab as a Service</p>
+      <p className="pull-right" style={{marginRight:"500px"}}>Fabric Network Bot</p>
   </span>
       ]
     
@@ -231,7 +231,7 @@ export default class Login extends React.Component {
 
 
         <h2 style={{marginTop: '10px',color:"white"}}>
-        Blockchain Lab as a Service
+        Fabric Network Bot
         </h2><br/>
         {finalImage}
         <br />
