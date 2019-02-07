@@ -1,0 +1,90 @@
+.background{
+  background-image: url("../images/login.jpg");
+  position: relative;
+  height: 1200px;
+ overflow: hidden;
+ background-repeat: repeat;
+ color: azure;
+font-size:16.5px;
+  /*background-color: GHOSTWHITE;*/
+  /*opacity:0.5;*/
+
+}
+
+.landingBackground{
+  background-image: url("../images/landingPage.jpg");
+  position: relative;
+  height: 800px;
+ overflow: hidden;
+ background-repeat: repeat;
+font-size:17px;
+}
+.reportBackGround{
+  background-image: url("../images/Report.jpg");
+  position: relative;
+  height: 750px;
+ overflow: hidden;
+ background-repeat: repeat;
+font-size:17px;
+}
+
+#createNetwork{
+  position: fixed;
+  right: 0; 
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  width: auto; 
+  height: auto;
+  z-index: -100;
+color: white ;
+font-size:17px;
+}
+
+.profile{
+  background-image: url("../images/profile6.jpg");
+  position: relative;
+  height: 530px;
+ background-repeat:no-repeat;
+ overflow: hidden;
+font-size:17px;
+}
+
+.assessment{
+  background-image: url("../images/assessment.jpg");
+  position: relative;
+  height: 900px;
+ background-repeat:repeat;
+ overflow: hidden;
+font-size:17px;
+}
+.recommendation{
+  background-image: url("../images/assessment.jpg");
+  position: relative;
+  height: 1400px;
+background-repeat: inherit;
+ overflow: hidden;
+font-size:17px;
+ }
+.networkTesting{
+  background-image: url("../images/network.jpg");
+  position: relative;
+  height: 900px;
+ background-repeat:repeat-y;
+ overflow: hidden;
+font-size:17px;
+}
+
+.networkColor h5 {
+  color: #DCDCDC
+}
+
+.backgroundPlatform{
+  background-image: url("../images/login.jpg");
+  position: relative;
+  height: 1000px;
+ overflow: hidden;
+ background-repeat: repeat;
+ color: azure;
+font-size:17px;
+ }

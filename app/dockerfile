@@ -1,0 +1,15 @@
+# FROM node:8.14.0
+# COPY ./app ./localapp 
+# EXPOSE 8080
+# RUN  cd ./localapp && npm install && npm install nodemon -g
+# CMD cd ./localapp && npm run serv
+
+FROM node:8.14.0
+WORKDIR app
+COPY package.json package.json
+RUN npm install
+RUN npm install nodemon -g
+RUN mv /app/node_modules /node_modules
+EXPOSE 8080
+COPY . .
+CMD npm run serv
